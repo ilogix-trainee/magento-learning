@@ -9,6 +9,7 @@ use Magento\Framework\Setup\ModuleContextInterface;
 class UpgradeData implements UpgradeDataInterface
 {
 	protected $_postFactory;
+	protected $test;
 
 	public function __construct(\Mageplaza\Helloworld\Model\PostFactory $postFactory)
 	{
